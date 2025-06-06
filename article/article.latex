@@ -1,0 +1,401 @@
+\documentclass{svproc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage[cmex10]{amsmath}
+\interdisplaylinepenalty=2500
+\usepackage[dvips]{graphicx}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{minted}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage[OT4,T1]{fontenc}
+\usepackage{pbalance}
+\usepackage{multicol}
+\usepackage{footmisc}
+\def\UrlFont{\rmfamily}
+
+\begin{document}
+\mainmatter              % start of a contribution
+%
+\title{Multi-Scale U-Net Segmentation Optimized by CNN-Based Quality Scoring}
+%
+\titlerunning{U-Net Segmentation}  % abbreviated title (for running head)
+
+% define environments for remarks and examples
+\newtheorem{remark}{Remark}[section]
+\newtheorem{example}[remark]{Example}
+
+%
+%
+\author{Lesław M. Pawlaczyk\inst{1}}
+%
+\authorrunning{Lesław M. Pawlaczyk} % abbreviated author list (for running head)
+%
+%
+\institute{WSB Merito University in Chorzów, ul. Sportowa 29, 41-506 Chorzów, Poland,\\
+\email{leslaw.pawlaczyk@chorzow.merito.pl},\\ WWW home page:
+\texttt{https://merito.pl}}
+
+\maketitle
+
+\begin{abstract}
+This paper presents Multi-Scale U-Net Segmentation Optimized by CNN-Based Quality Scoring (\textit{MUSOCS}), a novel framework designed to address key limitations of the traditional \textit{U-Net} in medical image segmentation. Standard U-Net models struggle with resolution variability and often require patch-based processing, introducing artifacts such as checkerboard effects. \textit{MUSOCS} mitigates these challenges by combining adaptive multi-scale segmentation with a \textit{CNN}-based scoring mechanism that automatically selects the optimal resolution for each image. The framework further enhances accuracy by integrating a hybrid strategy of full-image mesh coverage and randomly selected windows ranked by quality scores. We evaluate \textit{MUSOCS} using models trained on the \textit{FIVES} dataset and tested on a combined validation set derived from multiple sources, demonstrating improved robustness and scalability. Results show an Average Jaccard Index gain of up to 0.04 compared to classical Sliding Window Approaches, validating the effectiveness of adaptive scale selection. The complete implementation is open source and available on GitHub.
+\keywords{U-Net, segmentation assessment, medical imaging, fundus images}
+\end{abstract}
+
+\section{Introduction}
+
+Image segmentation, particularly in medical imaging, is inherently challenging due to variability in image quality, resolution, and labeling consistency. Even human experts often produce annotations that differ in fine details, illustrating the complexity of the task. In straightforward scenarios where object boundaries are well defined, segmentation has been largely solved by convolutional neural network architectures such as \textit{U-Net} \cite{ronneberger2015unet}.
+
+Introduced by Ronneberger et al. \cite{ronneberger2015unet}, \textit{U-Net} was designed for limited datasets and quickly became a cornerstone in biomedical image segmentation because of its strong performance and relatively low data requirements. However, the architecture has notable limitations. It assumes that input image resolution closely matches that of the training data, and hardware memory constraints often require large images to be divided into smaller patches. These patches are segmented individually and then stitched together, which can introduce artifacts such as checkerboard patterns and reduce segmentation accuracy.
+
+To overcome these limitations, we propose Multi-Scale U-Net Segmentation Optimized by CNN-Based Quality Scoring (\textit{MUSOCS}) - a framework that combines adaptive multi-scale segmentation with a \textit{CNN}-based scoring mechanism to automatically identify the optimal segmentation resolution. The method scales input images to multiple resolutions and evaluates their segmentation quality using a dedicated CNN, ensuring robust performance even when image sizes and resolutions vary. Additionally, \textit{MUSOCS} enhances full-image mesh coverage by incorporating random windows ranked by a quality score, further improving segmentation of complex structures such as blood vessels.
+
+The main contributions of this work are:
+\begin{itemize}
+  \item A CNN-based mechanism for adaptive scale selection.
+  \item A scoring strategy for identifying random windows that complement full-image coverage.
+  \item An open-source implementation, available for reproducibility on GitHub \cite{palles77unetsegmentation}.
+\end{itemize}
+
+\section{Literature Review}
+
+The field of image segmentation - particularly medical image segmentation and the application of \textit{U-Net} - has seen extensive research in recent years. Siddique et al. \cite{Siddique2021} reviewed \textit{U-Net} and its variants for medical image segmentation, discussing their theory and applications. Suri et al. \cite{Suri2022} provided a detailed analysis of the \textit{U-Net} architecture for vascular and non-vascular image segmentation, incorporating pruning and explainable AI. Kotaridis et al. \cite{Kotaridis2022} applied a \textit{U-Net} architecture for semantic segmentation on Sentinel-2 data, demonstrating its effectiveness in remote sensing. Azad et al. \cite{Azad2024} reviewed the success of \textit{U-Net} in medical image segmentation, highlighting its impact and advancements. Baheti et al. \cite{Baheti2020} introduced \textit{Eff-UNet}, a novel architecture for semantic segmentation in unstructured environments, showing improved performance.
+
+Sevastopolsky \cite{sevastopolsky2017optic} modified the \textit{U-Net} convolutional neural network for optic disc (\textit{ED}) and eye cup (\textit{EC}) segmentation, contributing to automated glaucoma detection. Chen et al. \cite{chen2024optic} introduced an \textit{Attention U-Net} incorporating a residual mechanism for (\textit{EC}, \textit{ED}) segmentation, which enhanced the accuracy of glaucoma detection. Chen and Lv \cite{Chen2024} developed a segmentation model tailored for (\textit{EC}, \textit{ED}) in fundus images, emphasizing its relevance in early-stage glaucoma diagnosis. Chowdhury et al. \cite{Chowdhury2022} proposed a \textit{U-Net}-based method leveraging entropy sampling, achieving promising results on the Drishti-GS and RIM-ONE V3 datasets. Sudhan et al. \cite{Sudhan2022} designed a deep learning framework incorporating \textit{U-Net} for both segmentation and classification of glaucoma, demonstrating strong performance on the ORIGA dataset. Tadisetty et al. \cite{Tadisetty2023} focused on identifying the boundaries of the (\textit{EC}, \textit{ED}) regions in glaucoma patients through segmentation, thereby improving diagnostic accuracy.
+
+Wang et al. \cite{wang2019recurrent} proposed a \textit{Recurrent U-Net} for resource-constrained segmentation, enhancing efficiency and accuracy. Loew \cite{Loew2021} presented \textit{DC-UNet}, a dual-channel efficient \textit{CNN} for medical image segmentation, rethinking the \textit{U-Net} architecture. Yousefi et al \cite{Yousefi2023} developed a new hybrid segmentation algorithm, \textit{UNet-GOA}, demonstrating its effectiveness in medical image segmentation. Akyel et al. \cite{akyel2023unet} introduced \textit{U-Net-RCB7}, an image segmentation algorithm for skin cancer detection, showing promising results. Li \cite{li2024improving} improved polygon image segmentation by enhancing the \textit{U-Net} architecture, achieving better segmentation accuracy.
+
+Most efforts to improve \textit{U-Net} target localized object segmentation, overlooking tasks like vessel segmentation where structures span the full image. Few studies tackle resolution variability, a key challenge in real-world medical imaging. Many modifications yield only 1–2\% gains despite \textit{U-Net}’s strong baseline performance, making added complexity questionable. Instead, lightweight, efficient strategies often deliver comparable improvements without major architectural changes.
+
+\section{Research Methodology}
+
+The inspiration for this work came from our previous experience in the field of fundus eye images (\textit{FEI}) segmentation task. We decided to use online datasets. These are: \textit{FIVES} \cite{jin2022fives}, with 1200 images with a resolution of 2048$\times$2048 pixels (it is used for training); \textit{DRHAGIS} \cite{holm2017drhagis}, with 80 images at 4752$\times$3168 pixels; \textit{STARE} \cite{hoover2000locating}, from which we used 20 images at 700$\times$605 pixels resolution, and \textit{HRF} \cite{budai2013robust}, containing 45 images at 3504$\times$2336 pixels. The last three datasets are combined and called \textit{FSVS}. They are used in the last step of our experiments to find optimal settings for segmentation. 
+
+\subsection{The Segmentation Framework}
+
+Our segmentation framework is attempting to overcome the issues mentioned earlier related to classic \textit{U-Net} approach. The process can be divided into following parts:
+
+\begin{enumerate}
+	\item \Model Training:
+	\begin{itemize}
+		\item \textit{U-Net} is trained using randomly sampled image patches.
+		\item A \textit{CNN} is trained to estimate the Jaccard Index (\textit{JI}).
+	\end{itemize}
+	\item Multi-Scale Segmentation:
+	\begin{itemize}
+		\item Each input image is scaled to multiple resolutions.
+		\item Two segmentation meshes are generated:
+		\begin{itemize}
+			\item Base Mesh (\textit{BM}): Covers the entire image systematically.
+			\item Random Mesh (\textit{RM}): Adds top-ranked random windows.
+		\end{itemize}
+	\end{itemize}
+\end{enumerate}
+
+\subsection{Training \textit{U-Net}}
+\label{subsec:step2}
+
+The preparation of data for \textit{U-Net} training involves extracting square patches from the labelled images (\textit{LI}). In the classical approach, the entire image is provided as input for \textit{U-Net}, which requires the \textit{LI} to conform to specific dimensions, or otherwise be rescaled accordingly. Alternatively, training can be performed by randomly sampling square patches from the \textit{LI} and using these as input.
+
+The \textit{FIVES} dataset is split into Main Training Set (\textit{UNETMTS}), and Segmentation Validation Set (\textit{UNETSVS}). The size of \textit{UNETMTS} is either 300 or 900 images. We are using these two different sizes for testing if more data means better final segmentation accuracy. The size of \textit{UNETSVS} is 300 images and is used for validation of the trained \textit{U-Net}.
+
+Each image from both subsets is processed with a mask generation algorithm, the details of which are provided in \cite{palles77unetsegmentation}. The resulting mask is combined with the original image using a logical AND operation. Subsequently, the image is cropped on all sides to minimize redundant black background regions. Then we randomly sample training windows of two types: object windows (\textit{OBTW}) and background windows (\textit{BKTW}). A window is \textit{OBTW}, if object pixels exceed a minimum threshold (e.g., 15\%) and \textit{BKTW}, if they stay below a maximum threshold (e.g., 5\%). To reflect typical object–background balance, we enforce a target ratio between the two (e.g., 50\%). Each sampled window size (\textit{WS}) is typically set to 128$\times$128 pixels.
+
+The windows are grouped into training batches, with a predefined number of epochs and a selected \textit{WS} that matches the input dimensions of the \textit{U-Net} model. The input windows, referred to as \textit{X} windows, consist of three color channels - red, green, and blue - with pixel values normalized to the range [0, 1]. The corresponding output windows, denoted as \textit{Y} windows, represent the segmentation masks and are converted into binary images with a single channel, where 0 means that a pixels is background (black) and 1 means that pixel is an object (white). Fig.~\ref{fig:unet_network} shows the architecture of \textit{U-Net} used in our experiments.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[height=0.2\textheight]{figures/unet_structure.png} \\
+  \caption{\textit{U-Net} used across all segmentation stages}
+  \label{fig:unet_network}
+\end{figure}
+
+\subsection{Training \textit{CNN}}
+\label{subsec:step2}
+
+The \textit{U-Net} model is a backbone of our segmentation framework. However we decided to employ \textit{CNN} as a tool which will provide us with an estimated Jaccard Index (\textit{JI}) \cite{jaccard1901}. As our algorithm is aiming to automatically detect best image resolution we are scaling each training image with scales of 40\%, 55\%, 70\%, 85\% and 100\%. For each of these scales the same amount of training windows are selected to keep data properly balanced. Typicaly a single training image provides 180 windows, with 36 windows per each of the 5 scales. Each window has a corresponding black and white scaled equivalent from the scaled ground truth image. This allows \textit{JI} to be computed for comparison between segmented windows. The \textit{CNN} model is later used segmentation assessment. Fig.~\ref{fig:cnn_network} shows the architecture of \textit{CNN} used in our experiments.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[height=0.2\textheight]{figures/cnn_structure.png} \\
+  \caption{\textit{CNN} used for segmentation quality assessment}
+  \label{fig:cnn_network}
+\end{figure}
+
+\subsection{Multi-Scale Segmentation}
+\label{subsec:step3)}
+
+A key challenge in direct pixel-to-pixel segmentation using a standard \textit{U-Net} lies in its susceptibility to two main issues:
+
+\begin{enumerate}
+  \item \textbf{Resolution sensitivity:} Standard \textit{U-Net} models perform well when training, validation, and test datasets share similar conditions (lighting, noise, sharpness, resolution). However, accuracy significantly degrades when test images differ in scale. Since convolutional layers learn features at the scales observed during training, robust performance requires identifying an appropriate target resolution.
+  \item \textbf{Randomized window sampling:} Objects of interest (e.g., blood vessels) appear at varying positions, scales, and orientations. Therefore, randomized sampling during training is essential to ensure the model learns invariant features across diverse locations and rotations.
+\end{enumerate}
+
+Before presenting the full segmentation framework, we describe how segmentation at a specific scale is performed. To achieve complete image coverage, we divide windows into two categories: a basic mesh (\textit{BM}) and a random mesh (\textit{RM}). The \textit{BM} systematically covers the entire image from the top-left to the bottom-right corner, forming a grid-like structure. If uncovered regions remain, additional windows are added along the rightmost column and bottom row.
+
+Segmentation based solely on the \textit{BM} proved insufficient. To address this, we introduce random windows that are ranked by their estimated Jaccard Index (\textit{JI}). Only top-ranked candidates that increase coverage are added to the RM. This approach ensures better coverage, which improves overall segmentation quality. The \textit{RM} scoring mechanism serves as a selection tool for identifying the most effective candidates. For all windows in \textit{BM} and \textit{RM}, the \textit{U-Net} outputs are aggregated on a pixel basis: if a pixel is covered by multiple windows (e.g., three), their scores are averaged to produce the final heatmap for binarization.
+
+Final segmentation at a given scale occurs in two stages:
+\begin{itemize}
+  \item \textbf{Stage 1 (Rough):} The image is resized to three scales (e.g., 40\%, 70\%, 100\%). For each scale, an average score across meshes is computed, and the best-performing scale is selected.
+  \item \textbf{Stage 2 (Detailed):} The chosen scale is further refined by testing values in a neighborhood (e.g., if the rough stage selects 100\%, then 85\%, 100\%, and 115\% are evaluated). The final scale is chosen based on the highest estimated \textit{JI}.
+\end{itemize}
+
+Fig.~\ref{fig:roughsegmentations} presents the segmentation results for five selected scales: 40\%, 70\%, 85\%, 100\%, and 115\%. It is apparent from the visual comparison that the quality of the segmentations varies significantly across different scales.
+
+\begin{figure}[ht]
+  \centering
+  \begin{tabular}{@{}l@{\hspace{5px}}l@{\hspace{5px}}l@{}}
+    \includegraphics[width=0.3\linewidth]{figures/segment_40.png} &
+    \includegraphics[width=0.3\linewidth]{figures/segment_70.png} \\
+    \scriptsize (a) Scale of 40\% & \scriptsize (b) Scale of 70\% \\  
+    \includegraphics[width=0.3\linewidth]{figures/segment_85.png} &
+    \includegraphics[width=0.3\linewidth]{figures/segment_100.png} \\
+    \scriptsize (c) Scale of 85\% & \scriptsize (d) Scale of 100\% \\  
+    \includegraphics[width=0.3\linewidth]{figures/segment_115.png} &
+    \includegraphics[width=0.3\linewidth]{figures/segment_truth.png} \\
+    \scriptsize (e) Scale of 115\% & \scriptsize (f) Groud truth \\
+  \end{tabular}
+  \caption{Different scales of input image for \textit{CNN} segmentation assessment training}
+  \label{fig:roughsegmentations}
+\end{figure}
+
+All configuration parameters related to segmentation in the implementation provided by \cite{palles77unetsegmentation} are fully customizable by the user.
+
+Section~\ref{sec:experiments} details a series of experiments assessing segmentation accuracy using the \textit{JI} on a unified dataset constructed from three sources: \textit{DRHAGIS} \cite{holm2017drhagis}, \textit{HRF} \cite{budai2013robust}, and \textit{STARE} \cite{hoover2000locating}. This consolidated dataset is hereafter termed the Combined Validation Dataset (\textit{CVDS}) which has 105 images.
+
+\section{Results and Discussion}
+\label{sec:experiments}
+
+In our experiments, we aimed to evaluate how well the proposed approach generalizes when a \textit{U-Net} model trained on one dataset is applied to a completely different dataset.
+
+We conducted four experiments:
+\begin{enumerate}
+  \item Applied \textit{MUSOCS} with \textit{U-Net} and \textit{CNN} models trained on 900 \textit{FIVES} images; tested on the \textit{CVDS}.
+  \item Same as above, but with different \textit{U-Net} and \textit{CNN} models; trained on 300 images.
+  \item Applied naive Sliding Window Algorithm (\textit{SWA}), based on \textit{BM} and using the \textit{U-Net} from Experiment 1, original resolution, no scaling or scoring.
+  \item Repeated Experiment 3 using the \textit{U-Net} from Experiment 2.
+\end{enumerate}
+
+The central hypothesis is that identifying an optimal resolution, at which the \textit{U-Net} model performs best for each individual image, leads to more accurate segmentation results than applying the model directly, at a fixed resolution in a brute-force manner. In the first experiment (Table~\ref{tab:experiment1}) we randomly selected 900 images from \textit{FIVES} dataset. The highest achieved Average Jaccard Index (\textit{AJI}) was 0.6161; however, this result came at the cost of \textit{TTE} at 12,038 seconds. In contrast, the fastest configuration, with a \textit{TTE} of just 1,939 seconds yielded an \textit{AJI} of 0.5962. 
+
+The column headings in Table~\ref{tab:experiment1} represent the following notions:
+\begin{itemize}
+  \item \textit{MNRS} – Minimum rough segmentation scale.
+  \item \textit{MXRS} – Maximum rough segmentation scale.
+  \item \textit{RSS} – Rough segmentation step.
+  \item \textit{DSDSR} – Detailed segmentation range.
+  \item \textit{DSS} – Detailed segmentation step.
+  \item \textit{GPOFRW} – Growth percentage overlap for random windows; specifies the minimum size increase needed for a random window to be included in \textit{RM}.
+  \item \textit{PICRW} – Percentage of the image covered by random windows.
+  \item \textit{MPICRW} – Multiplier applied to \textit{PICRW} to expand the set of randomly generated windows from which \textit{RM} is constructed. If set to zero, all random windows are included in \textit{RM}.
+  \item \textit{JICPCR} – Jaccard Index Calculation Percentage Rate; defines the proportion of windows evaluated using the \textit{CNN}-based \textit{JI} for segmentation quality estimation.
+  \item \textit{AJI} – Average Jaccard Index across the entire \textit{CVDS}.
+  \item \textit{TTE} – Total time elapsed (in seconds).
+\end{itemize}
+
+\begin{table}[htbp]
+\caption{Experiment 1 with Jaccard metrics and \textit{TTE} for various parameter settings.}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1pt}
+\begin{tabular}{rrrrrrrrrrr}
+\hline
+\textbf{MNRS} & \textbf{MXRS} & \textbf{RSS} & \textbf{DSDSR} & \textbf{DSS} & \textbf{GPOFRW} & \textbf{PICRW} & \textbf{MPICRW} & \textbf{JICPCR} & \textbf{AJI} & \textbf{TTE} \\
+\hline
+40 & 100 & 20 & 10 & 10 & 15 & 80  & 2 & 100 & 0.6155 & 12038 \\
+\textbf{40} & \textbf{100} & \textbf{20} & \textbf{10} & \textbf{10} & \textbf{15} & \textbf{80}  & \textbf{2} & \textbf{25}  & \textbf{0.6161} & \textbf{12038} \\
+40 & 100 & 20 & 10 & 10 & 15 & 80  & 4 & 100 & 0.6138 & 28148 \\
+40 & 100 & 20 & 10 & 10 & 15 & 80  & 4 & 25  & 0.6118 & 30266 \\
+40 & 100 & 30 & 15 & 15 & 0  & 100 & 0 & 100 & 0.6070 &  4677 \\
+40 & 100 & 30 & 15 & 15 & 0  & 100 & 0 & 25  & 0.6070 &  4077 \\
+40 & 100 & 30 & 15 & 15 & 0  & 50  & 0 & 100 & 0.6015 &  2819 \\
+\textbf{40} & \textbf{100} & \textbf{30} & \textbf{15} & \textbf{15} & \textbf{0}  & \textbf{50}  & \textbf{0} & \textbf{25}  & \textbf{0.5962} &  \textbf{1939} \\
+\end{tabular}
+\label{tab:experiment1}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Experiment 2 with Jaccard metrics and \textit{TTE} for various parameter settings.}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1pt}
+\begin{tabular}{rrrrrrrrrrr}
+\hline
+\textbf{MNRS} & \textbf{MXRS} & \textbf{RSS} & \textbf{DSDSR} & \textbf{DSS} & \textbf{GPOFRW} & \textbf{PICRW} & \textbf{MPICRW} & \textbf{JICPCR} & \textbf{AJI} & \textbf{TTE} \\
+\hline
+40 & 100 & 20 & 10 & 10 & 15 & 80  & 2 & 100 & 0.6028 & 11241 \\
+40 & 100 & 20 & 10 & 10 & 15 & 80  & 2 & 25  & 0.6009 &  8952 \\
+\textbf{40} & \textbf{100} & \textbf{20} & \textbf{10} & \textbf{10} & \textbf{15} & \textbf{80}  & \textbf{4} & \textbf{100} & \textbf{0.6054} & \textbf{21738} \\
+40 & 100 & 30 & 15 & 15 & 0  & 100 & 0 & 100 & 0.5933 &  3326 \\
+40 & 100 & 30 & 15 & 15 & 0  & 100 & 0 & 25  & 0.5869 &  2469 \\
+40 & 100 & 30 & 15 & 15 & 0  & 50  & 0 & 100 & 0.5846 &  2248 \\
+\textbf{40} & \textbf{100} & \textbf{30} & \textbf{15} & \textbf{15} & \textbf{0}  & \textbf{50}  & \textbf{0} & \textbf{25}  & \textbf{0.5803} &  \textbf{1388} \\
+\hline
+\end{tabular}
+\label{tab:experiment2}
+\end{table}
+
+In the second experiment (2nd part of Table~\ref{tab:experiment2}), we used 300 images from the \textit{FIVES} dataset, excluding those in \textit{UNETSVS}. The highest \textit{AJI} achieved was 0.6054, but this configuration required 21,738 seconds of \textit{TTE}. Conversely, the fastest configuration completed in 1,388 seconds, yielding an \textit{AJI} of 0.5803. The third experiment segmented images using only the \textit{BM} (without scaling) and the \textit{U-Net} model from Experiment 1, achieving \textit{AJI} = 0.5610 with \textit{TTE} = 590 seconds. In the fourth experiment, we applied the same approach with the \textit{U-Net} model from Experiment 2, improving the \textit{AJI} to 0.577 while reducing \textit{TTE} to 547 seconds.
+
+\section{Conclusion}
+
+This study introduces \textit{MUSOCS}, a multi-scale \textit{U-Net} segmentation framework optimized through CNN-based quality scoring. The proposed approach addresses key limitations of traditional \textit{U-Net} models, particularly their sensitivity to resolution differences and dependence on fixed patch-based processing. By automatically selecting the optimal segmentation scale and combining systematic mesh coverage with top-ranked random windows, \textit{MUSOCS} delivers measurable improvements in segmentation accuracy.
+
+Our experiments demonstrate that \textit{MUSOCS} achieves an \textit{AJI} gain of up to 0.04 compared to a naive Sliding Window Approach, with additional benefits from incorporating random windows. Increasing the size of the training set from 300 to 900 images resulted in notable accuracy improvements, confirming the positive impact of larger datasets. While these gains come with higher computational costs, our results show that even mid-range configurations can deliver strong performance with reasonable processing times.
+
+Despite these advancements, \textit{MUSOCS} introduces added complexity and computational overhead, which may limit real-time clinical applications. Future work will focus on reducing this overhead by adopting lightweight \textit{CNN} architectures for quality scoring, exploring dynamic window sizing strategies, and validating the approach on other imaging modalities such as MRI, CT, and ultrasound. Ultimately, \textit{MUSOCS} represents a step toward more adaptive and robust medical image segmentation systems capable of handling diverse resolutions and complex anatomical structures.
+
+\begin{thebibliography}{9}
+
+\bibitem{akyel2023unet}
+Akyel, C., Arıcı, N.:
+U-Net-RCB7: Image Segmentation Algorithm,
+Politeknik Dergisi, vol. 26, no. 4, pp. 1555--1562, 2023.
+
+\bibitem{Azad2024}
+Azad, R., Khodapanah Aghdam, E., Rauland, A. et al.:
+Medical Image Segmentation Review: The Success of U-Net,
+IEEE Trans. Pattern Anal. Mach. Intell., vol. 46, no. 12, pp. 10076--10095, 2024.
+doi:10.1109/TPAMI.2024.3435571,
+\url{https://doi.org/10.1109/TPAMI.2024.3435571}
+
+\bibitem{Baheti2020}
+Baheti, B., Innani, S., Gajre, S., Talbar, S.:
+\textit{Eff-UNet: A Novel Architecture for Semantic Segmentation in Unstructured Environment},
+IEEE/CVF Conf. Comput. Vis. Pattern Recognit. Workshops (CVPRW), pp. 2605--2614, 2020.
+doi:10.1109/CVPRW50498.2020.00187,
+\url{https://doi.org/10.1109/CVPRW50498.2020.00187}
+
+\bibitem{budai2013robust}
+Budai, A., Bock, R., Maier, A., Hornegger, J., Michelson, G.:
+Robust Vessel Segmentation in Fundus Images,
+Int. J. Biomed. Imaging, vol. 2013, art. 154860, 2013.
+doi:10.1155/2013/154860
+
+\bibitem{chen2024optic}
+Chen, Y., Bai, Y., Zhang, Y.:
+Optic disc and cup segmentation for glaucoma detection using Attention U-Net incorporating residual mechanism.
+PeerJ Comput. Sci. \textbf{10}, e1941 (2024).
+https://doi.org/10.7717/peerj-cs.1941
+
+\bibitem{Chen2024}
+Chen, N., Lv, X.:
+Research on segmentation model of optic disc and optic cup in fundus.
+BMC Ophthalmol. \textbf{24}, 273 (2024).
+https://pubmed.ncbi.nlm.nih.gov/38943095/
+
+\bibitem{Chowdhury2022}
+Chowdhury, A., Agarwal, R., Das, A., Nandi, D.:
+U-Net based optic cup and disk segmentation from retinal fundus images via entropy sampling.
+In: Adv. Comput. Paradigms Hybrid Intell. Comput., pp. 479--489. Springer, Singapore (2022).
+https://doi.org/10.1007/978-981-16-4369-9\_47
+
+\bibitem{holm2017drhagis}
+Holm, S., Russell, G., Nourrit, V., McLoughlin, N.:
+DR HAGIS - a fundus image database for the automatic extraction of retinal surface vessels from diabetic patients,
+J. Med. Imaging, vol. 4, no. 1, pp. 014503, 2017.
+doi:10.1117/1.JMI.4.1.014503
+
+\bibitem{hoover2000locating}
+Hoover, A.D., Kouznetsova, V., Goldbaum, M.:
+Locating blood vessels in retinal images by piecewise threshold probing of a matched filter response,
+IEEE Trans. Med. Imaging, vol. 19, no. 3, pp. 203--210, 2000.
+doi:10.1109/42.845178
+
+\bibitem{jaccard1901}
+Jaccard, P.:
+Étude comparative de la distribution florale dans une portion des Alpes et des Jura,
+Bull. Soc. Vaudoise Sci. Nat., vol. 37, pp. 547--579, 1901.
+
+\bibitem{jin2022fives}
+Jin, K., Huang, X., Zhou, J. et al.:
+FIVES: A Fundus Image Dataset for Artificial Intelligence based Vessel Segmentation,
+Sci. Data, vol. 9, no. 475, 2022.
+doi:10.1038/s41597-022-01590-2
+
+\bibitem{Kotaridis2022}
+Kotaridis, I., Lazaridou, M.:
+Semantic Segmentation Using a UNet Architecture on Sentinel-2 Data,
+Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., vol. XLIII-B3-2022, pp. 119--126, 2022.
+doi:10.5194/isprs-archives-XLIII-B3-2022-119-2022
+
+\bibitem{krizhevsky2012imagenet}
+Krizhevsky, A., Sutskever, I., Hinton, G.E.:
+ImageNet Classification with Deep Convolutional Neural Networks,
+Adv. Neural Inf. Process. Syst. (NIPS), vol. 25, pp. 1097--1105, 2012.
+doi:10.1145/3065386
+
+\bibitem{li2024improving}
+Li, D.:
+Improving polygon image segmentation by enhancing U-Net architecture,
+J. Phys.: Conf. Ser., vol. 2711, no. 1, art. 012010, 2024.
+doi:10.1088/1742-6596/2711/1/012010
+
+\bibitem{Loew2021}
+Loew, M.:
+DC-UNet: Rethinking the U-Net Architecture with Dual Channel Efficient CNN for Medical Image Segmentation,
+Med. Imaging 2021: Image Processing, pp. 1--16, 2021.
+doi:10.1117/12.95027990
+
+\bibitem{palles77unetsegmentation}
+Pawlaczyk, L.M.:
+Multi-Scale U-Net Segmentation Optimized by CNN-Based Quality Scoring implementation,
+2025.
+\url{https://github.com/palles77/FasterUnetSegmentation}
+
+\bibitem{ronneberger2015unet}
+Ronneberger, O., Fischer, P., Brox, T.:
+U-Net: Convolutional Networks for Biomedical Image Segmentation,
+Med. Image Comput. Comput.-Assist. Interv. (MICCAI), pp. 234--241, 2015.
+doi:10.1007/978-3-319-24574-4\_28
+
+\bibitem{sevastopolsky2017optic}
+Sevastopolsky, A.:
+Optic disc and cup segmentation methods for glaucoma detection with modification of U-Net convolutional neural network.
+Pattern Recognit. Image Anal. \textbf{27}(4), 618--624 (2017).
+https://doi.org/10.1134/S1054661817040169
+
+\bibitem{Siddique2021}
+Siddique, N., Sidike, P., Elkin, C., Devabhaktuni, V.:
+U-Net and its Variants for Medical Image Segmentation: Theory and Applications,
+IEEE Access, vol. 9, pp. 82031--82057, 2021.
+doi:10.1109/ACCESS.2021.3086020
+
+\bibitem{Sudhan2022}
+Sudhan, M.B., Sinthiya, M., Ravinth Raja, S.P. et al.:
+Segmentation and classification of glaucoma using U-Net with deep learning model.
+J. Healthc. Eng. \textbf{2022}, 1601354 (2022).
+https://doi.org/10.1155/2022/1601354
+
+\bibitem{Suri2022}
+Suri, J.S., Bhagawati, M., Agarwal, S. et al.:
+UNet Deep Learning Architecture for Segmentation of Vascular and Non-Vascular Images: A Microscopic Look at UNet Components Buffered With Pruning, Explainable Artificial Intelligence, and Bias,
+IEEE Access, vol. 11, pp. 595--645, 2023.
+doi:10.1109/ACCESS.2022.3232561
+
+\bibitem{Tadisetty2023}
+Tadisetty, S., Chodavarapu, R., Jin, R. et al.:
+Identifying the edges of the optic cup and the optic disc in glaucoma patients by segmentation.
+Sensors \textbf{23}(10), 4668 (2023).
+https://doi.org/10.3390/s23104668
+
+\bibitem{wang2019recurrent}
+Wang, W., Yu, K., Hugonot, J., Fua, P., Salzmann, M.:
+Recurrent U-Net for resource-constrained segmentation,
+Proc. IEEE Int. Conf. Comput. Vis., pp. 2142--2151, 2019.
+
+\bibitem{Yousefi2023}
+Yousefi, T., Aktaş, Ö.:
+New hybrid segmentation algorithm: UNet-GOA,
+PeerJ Comput. Sci., vol. 8, e1499, 2023.
+doi:10.7717/peerj-cs.1499
+
+\end{thebibliography}
+
+
+\end{document}

@@ -1,0 +1,51 @@
+numpy
+scipy
+scikit-image
+opencv-python-headless
+Pillow
+matplotlib
+Flask<2.3.0
+PyJWT<3,>=1.0.0
+azure-common<2.0.0,>=1.1
+colorama<0.5.0
+isodate
+pydash<6.0.0
+pyyaml<7.0.0,>=5.1.0
+strictyaml<2.0.0
+tqdm<5.0.0
+argcomplete<3
+backports.tempfile
+contextlib2<22.0.0
+humanfriendly<11.0,>=4.7
+jmespath<2.0.0
+jsonpickle<4.0.0
+pathspec<1.0.0
+pkginfo
+pytz
+psutil<6.0.0; platform_system == "Windows"
+pydantic>=2.7.0
+waitress==2.1.2; platform_system == "Windows"
+pywin32>=304; sys_platform == "win32"
+websocket-client>=0.32.0
+dnspython>=1.15.0
+greenlet>=0.3
+mistune
+pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+portalocker<3,>=1.6; python_version >= "3.5" and platform_system == "Windows"
+opencensus-context>=0.1.3
+threadpoolctl>=2.0.0
+wrapt>=1.14
+aniso8601>=0.82
+zope.event
+zope.interface
+attrs>=17.4.0
+pygments
+tabulate
+joblib>=1.1.1
+packaging<=23.0,>=20.0
+urllib3<2.0.0,>=1.23
+jsonschema-rs>=0.13.0
+xmltodict>=0.13.0
+blosc2
+cython>=0.29.21
+scikit-learn

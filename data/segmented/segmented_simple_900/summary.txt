@@ -1,0 +1,1365 @@
+Segmenting im0001.png...
+[im0001.png][_vs][Progress][Starting segmentation]
+[im0001.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0001.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_tddhhmgtjt/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_tddhhmgtjt\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_tddhhmgtjt\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_tddhhmgtjt/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_tddhhmgtjt/output_100.png
+Time elapsed: 0.26 seconds
+[im0001.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0001.png, segmented file Jaccard Distance: 0.454925
+Average Jaccard Distance: 0.454925
+Segmenting im0002.png...
+[im0002.png][_vs][Progress][Starting segmentation]
+[im0002.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0002.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_khjwisxukc/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_khjwisxukc\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_khjwisxukc\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_khjwisxukc/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_khjwisxukc/output_100.png
+Time elapsed: 0.09 seconds
+[im0002.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0002.png, segmented file Jaccard Distance: 0.466716
+Average Jaccard Distance: 0.460821
+Segmenting im0003.png...
+[im0003.png][_vs][Progress][Starting segmentation]
+[im0003.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0003.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_hfwnjjlbib/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_hfwnjjlbib\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_hfwnjjlbib\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_hfwnjjlbib/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_hfwnjjlbib/output_100.png
+Time elapsed: 0.09 seconds
+[im0003.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0003.png, segmented file Jaccard Distance: 0.570979
+Average Jaccard Distance: 0.497540
+Segmenting im0004.png...
+[im0004.png][_vs][Progress][Starting segmentation]
+[im0004.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0004.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_puudamzzsl/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_puudamzzsl\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_puudamzzsl\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_puudamzzsl/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_puudamzzsl/output_100.png
+Time elapsed: 0.09 seconds
+[im0004.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0004.png, segmented file Jaccard Distance: 0.380237
+Average Jaccard Distance: 0.468214
+Segmenting im0005.png...
+[im0005.png][_vs][Progress][Starting segmentation]
+[im0005.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0005.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_rpmiqdrhxc/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_rpmiqdrhxc\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_rpmiqdrhxc\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_rpmiqdrhxc/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_rpmiqdrhxc/output_100.png
+Time elapsed: 0.09 seconds
+[im0005.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0005.png, segmented file Jaccard Distance: 0.564931
+Average Jaccard Distance: 0.487558
+Segmenting im0044.png...
+[im0044.png][_vs][Progress][Starting segmentation]
+[im0044.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0044.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_zpuljihpwu/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_zpuljihpwu\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_zpuljihpwu\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_zpuljihpwu/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_zpuljihpwu/output_100.png
+Time elapsed: 0.09 seconds
+[im0044.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0044.png, segmented file Jaccard Distance: 0.510406
+Average Jaccard Distance: 0.491366
+Segmenting im0077.png...
+[im0077.png][_vs][Progress][Starting segmentation]
+[im0077.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0077.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_woqgmvhhbx/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_woqgmvhhbx\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_woqgmvhhbx\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_woqgmvhhbx/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_woqgmvhhbx/output_100.png
+Time elapsed: 0.09 seconds
+[im0077.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0077.png, segmented file Jaccard Distance: 0.676468
+Average Jaccard Distance: 0.517809
+Segmenting im0081.png...
+[im0081.png][_vs][Progress][Starting segmentation]
+[im0081.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0081.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_juwocatmuu/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_juwocatmuu\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_juwocatmuu\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_juwocatmuu/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_juwocatmuu/output_100.png
+Time elapsed: 0.09 seconds
+[im0081.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0081.png, segmented file Jaccard Distance: 0.586999
+Average Jaccard Distance: 0.526458
+Segmenting im0082.png...
+[im0082.png][_vs][Progress][Starting segmentation]
+[im0082.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0082.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_gcqmqhvtvm/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_gcqmqhvtvm\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_gcqmqhvtvm\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_gcqmqhvtvm/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_gcqmqhvtvm/output_100.png
+Time elapsed: 0.09 seconds
+[im0082.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0082.png, segmented file Jaccard Distance: 0.717363
+Average Jaccard Distance: 0.547669
+Segmenting im0139.png...
+[im0139.png][_vs][Progress][Starting segmentation]
+[im0139.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0139.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_hgdgltcwfm/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_hgdgltcwfm\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_hgdgltcwfm\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_hgdgltcwfm/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_hgdgltcwfm/output_100.png
+Time elapsed: 0.08 seconds
+[im0139.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0139.png, segmented file Jaccard Distance: 0.528823
+Average Jaccard Distance: 0.545785
+Segmenting im0162.png...
+[im0162.png][_vs][Progress][Starting segmentation]
+[im0162.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0162.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_wtqpzraiee/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_wtqpzraiee\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_wtqpzraiee\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_wtqpzraiee/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_wtqpzraiee/output_100.png
+Time elapsed: 0.08 seconds
+[im0162.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0162.png, segmented file Jaccard Distance: 0.643745
+Average Jaccard Distance: 0.554690
+Segmenting im0163.png...
+[im0163.png][_vs][Progress][Starting segmentation]
+[im0163.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0163.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_hcyqgszfmh/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_hcyqgszfmh\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_hcyqgszfmh\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_hcyqgszfmh/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_hcyqgszfmh/output_100.png
+Time elapsed: 0.08 seconds
+[im0163.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0163.png, segmented file Jaccard Distance: 0.727268
+Average Jaccard Distance: 0.569072
+Segmenting im0235.png...
+[im0235.png][_vs][Progress][Starting segmentation]
+[im0235.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0235.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_lkppcaylfa/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_lkppcaylfa\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_lkppcaylfa\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_lkppcaylfa/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_lkppcaylfa/output_100.png
+Time elapsed: 0.08 seconds
+[im0235.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0235.png, segmented file Jaccard Distance: 0.683817
+Average Jaccard Distance: 0.577898
+Segmenting im0236.png...
+[im0236.png][_vs][Progress][Starting segmentation]
+[im0236.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0236.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_nqwepygkyi/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_nqwepygkyi\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_nqwepygkyi\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_nqwepygkyi/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_nqwepygkyi/output_100.png
+Time elapsed: 0.08 seconds
+[im0236.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0236.png, segmented file Jaccard Distance: 0.689515
+Average Jaccard Distance: 0.585871
+Segmenting im0239.png...
+[im0239.png][_vs][Progress][Starting segmentation]
+[im0239.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0239.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_agtrktqiny/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_agtrktqiny\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_agtrktqiny\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_agtrktqiny/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_agtrktqiny/output_100.png
+Time elapsed: 0.09 seconds
+[im0239.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0239.png, segmented file Jaccard Distance: 0.623516
+Average Jaccard Distance: 0.588381
+Segmenting im0240.png...
+[im0240.png][_vs][Progress][Starting segmentation]
+[im0240.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0240.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_dpyjrstoaf/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_dpyjrstoaf\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_dpyjrstoaf\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_dpyjrstoaf/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_dpyjrstoaf/output_100.png
+Time elapsed: 0.08 seconds
+[im0240.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0240.png, segmented file Jaccard Distance: 0.469239
+Average Jaccard Distance: 0.580934
+Segmenting im0255.png...
+[im0255.png][_vs][Progress][Starting segmentation]
+[im0255.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0255.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_avxwdzxpld/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_avxwdzxpld\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_avxwdzxpld\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_avxwdzxpld/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_avxwdzxpld/output_100.png
+Time elapsed: 0.09 seconds
+[im0255.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0255.png, segmented file Jaccard Distance: 0.538540
+Average Jaccard Distance: 0.578440
+Segmenting im0291.png...
+[im0291.png][_vs][Progress][Starting segmentation]
+[im0291.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0291.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_vwswqzlbod/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_vwswqzlbod\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_vwswqzlbod\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_vwswqzlbod/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_vwswqzlbod/output_100.png
+Time elapsed: 0.09 seconds
+[im0291.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0291.png, segmented file Jaccard Distance: 0.526556
+Average Jaccard Distance: 0.575558
+Segmenting im0319.png...
+[im0319.png][_vs][Progress][Starting segmentation]
+[im0319.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0319.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_xdinfoalrq/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_xdinfoalrq\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_xdinfoalrq\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_xdinfoalrq/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_xdinfoalrq/output_100.png
+Time elapsed: 0.09 seconds
+[im0319.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0319.png, segmented file Jaccard Distance: 0.495815
+Average Jaccard Distance: 0.571361
+Segmenting im0324.png...
+[im0324.png][_vs][Progress][Starting segmentation]
+[im0324.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\im0324.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_okqrksfgmu/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_okqrksfgmu\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_okqrksfgmu\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_okqrksfgmu/output_100.png
+Total area of the image: 423500
+Segmentation end data/segmented/segmented_simple_900\temp_okqrksfgmu/output_100.png
+Time elapsed: 0.08 seconds
+[im0324.png][_vs][Progress][Finished final segmentation]
+Ground image file: im0324.png, segmented file Jaccard Distance: 0.588210
+Average Jaccard Distance: 0.572203
+Segmenting segment_01_dr.png...
+[segment_01_dr.png][_vs][Progress][Starting segmentation]
+[segment_01_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_01_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_nfckmvkubk/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_nfckmvkubk\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_nfckmvkubk\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_nfckmvkubk/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_nfckmvkubk/output_100.png
+Time elapsed: 10.96 seconds
+[segment_01_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_01_dr.png, segmented file Jaccard Distance: 0.464379
+Average Jaccard Distance: 0.567069
+Segmenting segment_01_g.png...
+[segment_01_g.png][_vs][Progress][Starting segmentation]
+[segment_01_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_01_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_irdbvczvyh/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_irdbvczvyh\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_irdbvczvyh\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_irdbvczvyh/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_irdbvczvyh/output_100.png
+Time elapsed: 10.67 seconds
+[segment_01_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_01_g.png, segmented file Jaccard Distance: 0.554869
+Average Jaccard Distance: 0.566514
+Segmenting segment_01_h.png...
+[segment_01_h.png][_vs][Progress][Starting segmentation]
+[segment_01_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_01_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_hjbzkufbhc/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_hjbzkufbhc\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_hjbzkufbhc\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_hjbzkufbhc/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_hjbzkufbhc/output_100.png
+Time elapsed: 6.22 seconds
+[segment_01_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_01_h.png, segmented file Jaccard Distance: 0.666943
+Average Jaccard Distance: 0.570881
+Segmenting segment_02_dr.png...
+[segment_02_dr.png][_vs][Progress][Starting segmentation]
+[segment_02_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_02_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_fajmpyhpsw/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_fajmpyhpsw\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_fajmpyhpsw\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_fajmpyhpsw/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_fajmpyhpsw/output_100.png
+Time elapsed: 15.01 seconds
+[segment_02_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_02_dr.png, segmented file Jaccard Distance: 0.545672
+Average Jaccard Distance: 0.569831
+Segmenting segment_02_g.png...
+[segment_02_g.png][_vs][Progress][Starting segmentation]
+[segment_02_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_02_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_xfyjgtymoo/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_xfyjgtymoo\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_xfyjgtymoo\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_xfyjgtymoo/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_xfyjgtymoo/output_100.png
+Time elapsed: 6.62 seconds
+[segment_02_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_02_g.png, segmented file Jaccard Distance: 0.611604
+Average Jaccard Distance: 0.571501
+Segmenting segment_02_h.png...
+[segment_02_h.png][_vs][Progress][Starting segmentation]
+[segment_02_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_02_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_nnzmpkuxeo/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_nnzmpkuxeo\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_nnzmpkuxeo\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_nnzmpkuxeo/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_nnzmpkuxeo/output_100.png
+Time elapsed: 6.25 seconds
+[segment_02_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_02_h.png, segmented file Jaccard Distance: 0.714629
+Average Jaccard Distance: 0.577006
+Segmenting segment_03_dr.png...
+[segment_03_dr.png][_vs][Progress][Starting segmentation]
+[segment_03_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_03_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_bdnkuucaxk/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_bdnkuucaxk\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_bdnkuucaxk\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_bdnkuucaxk/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_bdnkuucaxk/output_100.png
+Time elapsed: 5.94 seconds
+[segment_03_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_03_dr.png, segmented file Jaccard Distance: 0.569863
+Average Jaccard Distance: 0.576742
+Segmenting segment_03_g.png...
+[segment_03_g.png][_vs][Progress][Starting segmentation]
+[segment_03_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_03_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_djhihtfydw/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_djhihtfydw\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_djhihtfydw\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_djhihtfydw/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_djhihtfydw/output_100.png
+Time elapsed: 5.99 seconds
+[segment_03_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_03_g.png, segmented file Jaccard Distance: 0.588592
+Average Jaccard Distance: 0.577165
+Segmenting segment_03_h.png...
+[segment_03_h.png][_vs][Progress][Starting segmentation]
+[segment_03_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_03_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_zalfmebacz/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_zalfmebacz\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_zalfmebacz\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_zalfmebacz/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_zalfmebacz/output_100.png
+Time elapsed: 6.06 seconds
+[segment_03_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_03_h.png, segmented file Jaccard Distance: 0.638000
+Average Jaccard Distance: 0.579263
+Segmenting segment_04_dr.png...
+[segment_04_dr.png][_vs][Progress][Starting segmentation]
+[segment_04_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_04_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_yzshdnlsjp/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_yzshdnlsjp\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_yzshdnlsjp\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_yzshdnlsjp/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_yzshdnlsjp/output_100.png
+Time elapsed: 6.11 seconds
+[segment_04_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_04_dr.png, segmented file Jaccard Distance: 0.537666
+Average Jaccard Distance: 0.577876
+Segmenting segment_04_g.png...
+[segment_04_g.png][_vs][Progress][Starting segmentation]
+[segment_04_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_04_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_lvkgebseqb/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_lvkgebseqb\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_lvkgebseqb\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_lvkgebseqb/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_lvkgebseqb/output_100.png
+Time elapsed: 6.03 seconds
+[segment_04_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_04_g.png, segmented file Jaccard Distance: 0.606039
+Average Jaccard Distance: 0.578785
+Segmenting segment_04_h.png...
+[segment_04_h.png][_vs][Progress][Starting segmentation]
+[segment_04_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_04_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_yxqffbumhr/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_yxqffbumhr\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_yxqffbumhr\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_yxqffbumhr/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_yxqffbumhr/output_100.png
+Time elapsed: 6.12 seconds
+[segment_04_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_04_h.png, segmented file Jaccard Distance: 0.676747
+Average Jaccard Distance: 0.581846
+Segmenting segment_05_dr.png...
+[segment_05_dr.png][_vs][Progress][Starting segmentation]
+[segment_05_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_05_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ghdqedzovn/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ghdqedzovn\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ghdqedzovn\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ghdqedzovn/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ghdqedzovn/output_100.png
+Time elapsed: 6.06 seconds
+[segment_05_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_05_dr.png, segmented file Jaccard Distance: 0.582278
+Average Jaccard Distance: 0.581859
+Segmenting segment_05_g.png...
+[segment_05_g.png][_vs][Progress][Starting segmentation]
+[segment_05_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_05_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_tvgjoqxtaf/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_tvgjoqxtaf\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_tvgjoqxtaf\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_tvgjoqxtaf/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_tvgjoqxtaf/output_100.png
+Time elapsed: 6.09 seconds
+[segment_05_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_05_g.png, segmented file Jaccard Distance: 0.629868
+Average Jaccard Distance: 0.583271
+Segmenting segment_05_h.png...
+[segment_05_h.png][_vs][Progress][Starting segmentation]
+[segment_05_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_05_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_vsrrfpgpdy/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_vsrrfpgpdy\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_vsrrfpgpdy\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_vsrrfpgpdy/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_vsrrfpgpdy/output_100.png
+Time elapsed: 6.06 seconds
+[segment_05_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_05_h.png, segmented file Jaccard Distance: 0.696818
+Average Jaccard Distance: 0.586515
+Segmenting segment_06_dr.png...
+[segment_06_dr.png][_vs][Progress][Starting segmentation]
+[segment_06_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_06_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_xfbepjtgzn/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_xfbepjtgzn\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_xfbepjtgzn\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_xfbepjtgzn/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_xfbepjtgzn/output_100.png
+Time elapsed: 6.21 seconds
+[segment_06_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_06_dr.png, segmented file Jaccard Distance: 0.521095
+Average Jaccard Distance: 0.584698
+Segmenting segment_06_g.png...
+[segment_06_g.png][_vs][Progress][Starting segmentation]
+[segment_06_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_06_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_qtnkisefhe/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_qtnkisefhe\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_qtnkisefhe\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_qtnkisefhe/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_qtnkisefhe/output_100.png
+Time elapsed: 6.06 seconds
+[segment_06_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_06_g.png, segmented file Jaccard Distance: 0.621352
+Average Jaccard Distance: 0.585689
+Segmenting segment_06_h.png...
+[segment_06_h.png][_vs][Progress][Starting segmentation]
+[segment_06_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_06_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ewzzzyozkk/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ewzzzyozkk\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ewzzzyozkk\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ewzzzyozkk/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ewzzzyozkk/output_100.png
+Time elapsed: 6.27 seconds
+[segment_06_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_06_h.png, segmented file Jaccard Distance: 0.727894
+Average Jaccard Distance: 0.589431
+Segmenting segment_07_dr.png...
+[segment_07_dr.png][_vs][Progress][Starting segmentation]
+[segment_07_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_07_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_klmjdustel/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_klmjdustel\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_klmjdustel\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_klmjdustel/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_klmjdustel/output_100.png
+Time elapsed: 5.99 seconds
+[segment_07_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_07_dr.png, segmented file Jaccard Distance: 0.600119
+Average Jaccard Distance: 0.589705
+Segmenting segment_07_g.png...
+[segment_07_g.png][_vs][Progress][Starting segmentation]
+[segment_07_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_07_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ivxdbvzjos/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ivxdbvzjos\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ivxdbvzjos\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ivxdbvzjos/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ivxdbvzjos/output_100.png
+Time elapsed: 6.33 seconds
+[segment_07_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_07_g.png, segmented file Jaccard Distance: 0.631021
+Average Jaccard Distance: 0.590738
+Segmenting segment_07_h.png...
+[segment_07_h.png][_vs][Progress][Starting segmentation]
+[segment_07_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_07_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ctqizhiitc/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ctqizhiitc\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ctqizhiitc\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ctqizhiitc/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ctqizhiitc/output_100.png
+Time elapsed: 6.04 seconds
+[segment_07_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_07_h.png, segmented file Jaccard Distance: 0.721723
+Average Jaccard Distance: 0.593933
+Segmenting segment_08_dr.png...
+[segment_08_dr.png][_vs][Progress][Starting segmentation]
+[segment_08_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_08_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_bqinaigoge/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_bqinaigoge\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_bqinaigoge\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_bqinaigoge/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_bqinaigoge/output_100.png
+Time elapsed: 6.18 seconds
+[segment_08_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_08_dr.png, segmented file Jaccard Distance: 0.576646
+Average Jaccard Distance: 0.593521
+Segmenting segment_08_g.png...
+[segment_08_g.png][_vs][Progress][Starting segmentation]
+[segment_08_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_08_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_sakjckdmof/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_sakjckdmof\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_sakjckdmof\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_sakjckdmof/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_sakjckdmof/output_100.png
+Time elapsed: 5.94 seconds
+[segment_08_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_08_g.png, segmented file Jaccard Distance: 0.625401
+Average Jaccard Distance: 0.594262
+Segmenting segment_08_h.png...
+[segment_08_h.png][_vs][Progress][Starting segmentation]
+[segment_08_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_08_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ozzhedjovi/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ozzhedjovi\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ozzhedjovi\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ozzhedjovi/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ozzhedjovi/output_100.png
+Time elapsed: 6.03 seconds
+[segment_08_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_08_h.png, segmented file Jaccard Distance: 0.721509
+Average Jaccard Distance: 0.597154
+Segmenting segment_09_dr.png...
+[segment_09_dr.png][_vs][Progress][Starting segmentation]
+[segment_09_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_09_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_btupmquclb/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_btupmquclb\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_btupmquclb\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_btupmquclb/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_btupmquclb/output_100.png
+Time elapsed: 6.29 seconds
+[segment_09_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_09_dr.png, segmented file Jaccard Distance: 0.543282
+Average Jaccard Distance: 0.595957
+Segmenting segment_09_g.png...
+[segment_09_g.png][_vs][Progress][Starting segmentation]
+[segment_09_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_09_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_gsnsauujpf/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_gsnsauujpf\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_gsnsauujpf\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_gsnsauujpf/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_gsnsauujpf/output_100.png
+Time elapsed: 6.27 seconds
+[segment_09_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_09_g.png, segmented file Jaccard Distance: 0.625817
+Average Jaccard Distance: 0.596606
+Segmenting segment_09_h.png...
+[segment_09_h.png][_vs][Progress][Starting segmentation]
+[segment_09_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_09_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_rtxjkoutnp/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_rtxjkoutnp\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_rtxjkoutnp\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_rtxjkoutnp/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_rtxjkoutnp/output_100.png
+Time elapsed: 6.38 seconds
+[segment_09_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_09_h.png, segmented file Jaccard Distance: 0.666516
+Average Jaccard Distance: 0.598094
+Segmenting segment_1.png...
+[segment_1.png][_vs][Progress][Starting segmentation]
+[segment_1.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_1.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_dxavpdxrzj/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_dxavpdxrzj\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_dxavpdxrzj\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_dxavpdxrzj/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_dxavpdxrzj/output_100.png
+Time elapsed: 18.08 seconds
+[segment_1.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_1.png, segmented file Jaccard Distance: 0.543380
+Average Jaccard Distance: 0.596954
+Segmenting segment_10.png...
+[segment_10.png][_vs][Progress][Starting segmentation]
+[segment_10.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_10.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_iaiujhspfd/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_iaiujhspfd\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_iaiujhspfd\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_iaiujhspfd/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_iaiujhspfd/output_100.png
+Time elapsed: 1.07 seconds
+[segment_10.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_10.png, segmented file Jaccard Distance: 0.656335
+Average Jaccard Distance: 0.598166
+Segmenting segment_10_dr.png...
+[segment_10_dr.png][_vs][Progress][Starting segmentation]
+[segment_10_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_10_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_pphrdhatyo/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_pphrdhatyo\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_pphrdhatyo\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_pphrdhatyo/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_pphrdhatyo/output_100.png
+Time elapsed: 6.25 seconds
+[segment_10_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_10_dr.png, segmented file Jaccard Distance: 0.577477
+Average Jaccard Distance: 0.597752
+Segmenting segment_10_g.png...
+[segment_10_g.png][_vs][Progress][Starting segmentation]
+[segment_10_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_10_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_dteuumupea/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_dteuumupea\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_dteuumupea\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_dteuumupea/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_dteuumupea/output_100.png
+Time elapsed: 6.23 seconds
+[segment_10_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_10_g.png, segmented file Jaccard Distance: 0.627465
+Average Jaccard Distance: 0.598335
+Segmenting segment_10_h.png...
+[segment_10_h.png][_vs][Progress][Starting segmentation]
+[segment_10_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_10_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_hafvepxhau/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_hafvepxhau\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_hafvepxhau\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_hafvepxhau/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_hafvepxhau/output_100.png
+Time elapsed: 6.23 seconds
+[segment_10_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_10_h.png, segmented file Jaccard Distance: 0.684067
+Average Jaccard Distance: 0.599983
+Segmenting segment_11.png...
+[segment_11.png][_vs][Progress][Starting segmentation]
+[segment_11.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_11.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_raomsuiutx/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_raomsuiutx\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_raomsuiutx\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_raomsuiutx/output_100.png
+Total area of the image: 5629824
+Segmentation end data/segmented/segmented_simple_900\temp_raomsuiutx/output_100.png
+Time elapsed: 0.78 seconds
+[segment_11.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_11.png, segmented file Jaccard Distance: 0.659574
+Average Jaccard Distance: 0.601108
+Segmenting segment_11_dr.png...
+[segment_11_dr.png][_vs][Progress][Starting segmentation]
+[segment_11_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_11_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_vyrkdovpze/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_vyrkdovpze\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_vyrkdovpze\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_vyrkdovpze/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_vyrkdovpze/output_100.png
+Time elapsed: 6.23 seconds
+[segment_11_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_11_dr.png, segmented file Jaccard Distance: 0.625895
+Average Jaccard Distance: 0.601567
+Segmenting segment_11_g.png...
+[segment_11_g.png][_vs][Progress][Starting segmentation]
+[segment_11_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_11_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_vqbetjgbfv/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_vqbetjgbfv\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_vqbetjgbfv\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_vqbetjgbfv/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_vqbetjgbfv/output_100.png
+Time elapsed: 6.31 seconds
+[segment_11_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_11_g.png, segmented file Jaccard Distance: 0.643013
+Average Jaccard Distance: 0.602320
+Segmenting segment_11_h.png...
+[segment_11_h.png][_vs][Progress][Starting segmentation]
+[segment_11_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_11_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ahtmxjozqm/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ahtmxjozqm\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ahtmxjozqm\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ahtmxjozqm/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ahtmxjozqm/output_100.png
+Time elapsed: 6.35 seconds
+[segment_11_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_11_h.png, segmented file Jaccard Distance: 0.717731
+Average Jaccard Distance: 0.604381
+Segmenting segment_12.png...
+[segment_12.png][_vs][Progress][Starting segmentation]
+[segment_12.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_12.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_heifngrksu/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_heifngrksu\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_heifngrksu\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_heifngrksu/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_heifngrksu/output_100.png
+Time elapsed: 1.72 seconds
+[segment_12.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_12.png, segmented file Jaccard Distance: 0.432136
+Average Jaccard Distance: 0.601359
+Segmenting segment_12_dr.png...
+[segment_12_dr.png][_vs][Progress][Starting segmentation]
+[segment_12_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_12_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_apspctfatm/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_apspctfatm\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_apspctfatm\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_apspctfatm/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_apspctfatm/output_100.png
+Time elapsed: 6.06 seconds
+[segment_12_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_12_dr.png, segmented file Jaccard Distance: 0.560464
+Average Jaccard Distance: 0.600654
+Segmenting segment_12_g.png...
+[segment_12_g.png][_vs][Progress][Starting segmentation]
+[segment_12_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_12_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_llznkeaibp/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_llznkeaibp\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_llznkeaibp\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_llznkeaibp/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_llznkeaibp/output_100.png
+Time elapsed: 6.29 seconds
+[segment_12_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_12_g.png, segmented file Jaccard Distance: 0.644728
+Average Jaccard Distance: 0.601401
+Segmenting segment_12_h.png...
+[segment_12_h.png][_vs][Progress][Starting segmentation]
+[segment_12_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_12_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_oovibwtcjm/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_oovibwtcjm\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_oovibwtcjm\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_oovibwtcjm/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_oovibwtcjm/output_100.png
+Time elapsed: 6.30 seconds
+[segment_12_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_12_h.png, segmented file Jaccard Distance: 0.726457
+Average Jaccard Distance: 0.603486
+Segmenting segment_13.png...
+[segment_13.png][_vs][Progress][Starting segmentation]
+[segment_13.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_13.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_dprrqvvcim/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_dprrqvvcim\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_dprrqvvcim\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_dprrqvvcim/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_dprrqvvcim/output_100.png
+Time elapsed: 1.76 seconds
+[segment_13.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_13.png, segmented file Jaccard Distance: 0.272013
+Average Jaccard Distance: 0.598052
+Segmenting segment_13_dr.png...
+[segment_13_dr.png][_vs][Progress][Starting segmentation]
+[segment_13_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_13_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_wbvfxgdird/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_wbvfxgdird\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_wbvfxgdird\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_wbvfxgdird/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_wbvfxgdird/output_100.png
+Time elapsed: 6.48 seconds
+[segment_13_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_13_dr.png, segmented file Jaccard Distance: 0.572665
+Average Jaccard Distance: 0.597642
+Segmenting segment_13_g.png...
+[segment_13_g.png][_vs][Progress][Starting segmentation]
+[segment_13_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_13_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_qktdpfmuqq/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_qktdpfmuqq\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_qktdpfmuqq\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_qktdpfmuqq/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_qktdpfmuqq/output_100.png
+Time elapsed: 6.48 seconds
+[segment_13_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_13_g.png, segmented file Jaccard Distance: 0.592400
+Average Jaccard Distance: 0.597559
+Segmenting segment_13_h.png...
+[segment_13_h.png][_vs][Progress][Starting segmentation]
+[segment_13_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_13_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_jpybxejyoc/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_jpybxejyoc\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_jpybxejyoc\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_jpybxejyoc/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_jpybxejyoc/output_100.png
+Time elapsed: 6.57 seconds
+[segment_13_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_13_h.png, segmented file Jaccard Distance: 0.679174
+Average Jaccard Distance: 0.598834
+Segmenting segment_14.png...
+[segment_14.png][_vs][Progress][Starting segmentation]
+[segment_14.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_14.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_rcmymsnfql/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_rcmymsnfql\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_rcmymsnfql\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_rcmymsnfql/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_rcmymsnfql/output_100.png
+Time elapsed: 1.83 seconds
+[segment_14.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_14.png, segmented file Jaccard Distance: 0.635969
+Average Jaccard Distance: 0.599405
+Segmenting segment_14_dr.png...
+[segment_14_dr.png][_vs][Progress][Starting segmentation]
+[segment_14_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_14_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_nwxmgpumfd/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_nwxmgpumfd\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_nwxmgpumfd\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_nwxmgpumfd/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_nwxmgpumfd/output_100.png
+Time elapsed: 6.12 seconds
+[segment_14_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_14_dr.png, segmented file Jaccard Distance: 0.563240
+Average Jaccard Distance: 0.598857
+Segmenting segment_14_g.png...
+[segment_14_g.png][_vs][Progress][Starting segmentation]
+[segment_14_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_14_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ejkjjtkobe/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ejkjjtkobe\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ejkjjtkobe\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ejkjjtkobe/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ejkjjtkobe/output_100.png
+Time elapsed: 6.48 seconds
+[segment_14_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_14_g.png, segmented file Jaccard Distance: 0.571160
+Average Jaccard Distance: 0.598444
+Segmenting segment_14_h.png...
+[segment_14_h.png][_vs][Progress][Starting segmentation]
+[segment_14_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_14_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ufgbhqzdpa/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ufgbhqzdpa\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ufgbhqzdpa\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ufgbhqzdpa/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ufgbhqzdpa/output_100.png
+Time elapsed: 6.30 seconds
+[segment_14_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_14_h.png, segmented file Jaccard Distance: 0.684368
+Average Jaccard Distance: 0.599708
+Segmenting segment_15.png...
+[segment_15.png][_vs][Progress][Starting segmentation]
+[segment_15.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_15.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_rtrmtltbjh/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_rtrmtltbjh\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_rtrmtltbjh\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_rtrmtltbjh/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_rtrmtltbjh/output_100.png
+Time elapsed: 0.77 seconds
+[segment_15.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_15.png, segmented file Jaccard Distance: 0.614264
+Average Jaccard Distance: 0.599919
+Segmenting segment_15_dr.png...
+[segment_15_dr.png][_vs][Progress][Starting segmentation]
+[segment_15_dr.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_15_dr.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ppqdhnmnzp/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ppqdhnmnzp\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ppqdhnmnzp\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ppqdhnmnzp/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_ppqdhnmnzp/output_100.png
+Time elapsed: 6.32 seconds
+[segment_15_dr.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_15_dr.png, segmented file Jaccard Distance: 0.527337
+Average Jaccard Distance: 0.598882
+Segmenting segment_15_g.png...
+[segment_15_g.png][_vs][Progress][Starting segmentation]
+[segment_15_g.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_15_g.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_pdrdfnytpu/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_pdrdfnytpu\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_pdrdfnytpu\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_pdrdfnytpu/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_pdrdfnytpu/output_100.png
+Time elapsed: 6.43 seconds
+[segment_15_g.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_15_g.png, segmented file Jaccard Distance: 0.584515
+Average Jaccard Distance: 0.598679
+Segmenting segment_15_h.png...
+[segment_15_h.png][_vs][Progress][Starting segmentation]
+[segment_15_h.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_15_h.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_tpjvjuxnqs/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_tpjvjuxnqs\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_tpjvjuxnqs\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_tpjvjuxnqs/output_100.png
+Total area of the image: 8185344
+Segmentation end data/segmented/segmented_simple_900\temp_tpjvjuxnqs/output_100.png
+Time elapsed: 6.38 seconds
+[segment_15_h.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_15_h.png, segmented file Jaccard Distance: 0.718764
+Average Jaccard Distance: 0.600347
+Segmenting segment_16.png...
+[segment_16.png][_vs][Progress][Starting segmentation]
+[segment_16.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_16.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_ujxafxzkej/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_ujxafxzkej\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_ujxafxzkej\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_ujxafxzkej/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_ujxafxzkej/output_100.png
+Time elapsed: 0.82 seconds
+[segment_16.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_16.png, segmented file Jaccard Distance: 0.578916
+Average Jaccard Distance: 0.600054
+Segmenting segment_17.png...
+[segment_17.png][_vs][Progress][Starting segmentation]
+[segment_17.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_17.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_tjjrzogwqe/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_tjjrzogwqe\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_tjjrzogwqe\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_tjjrzogwqe/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_tjjrzogwqe/output_100.png
+Time elapsed: 1.73 seconds
+[segment_17.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_17.png, segmented file Jaccard Distance: 0.629794
+Average Jaccard Distance: 0.600456
+Segmenting segment_18.png...
+[segment_18.png][_vs][Progress][Starting segmentation]
+[segment_18.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_18.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_nhmdhhqplb/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_nhmdhhqplb\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_nhmdhhqplb\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_nhmdhhqplb/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_nhmdhhqplb/output_100.png
+Time elapsed: 0.80 seconds
+[segment_18.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_18.png, segmented file Jaccard Distance: 0.615452
+Average Jaccard Distance: 0.600656
+Segmenting segment_19.png...
+[segment_19.png][_vs][Progress][Starting segmentation]
+[segment_19.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_19.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_zxufurmbaj/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_zxufurmbaj\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_zxufurmbaj\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_zxufurmbaj/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_zxufurmbaj/output_100.png
+Time elapsed: 0.69 seconds
+[segment_19.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_19.png, segmented file Jaccard Distance: 0.419795
+Average Jaccard Distance: 0.598276
+Segmenting segment_2.png...
+[segment_2.png][_vs][Progress][Starting segmentation]
+[segment_2.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_2.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_lfihziiaos/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_lfihziiaos\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_lfihziiaos\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_lfihziiaos/output_100.png
+Total area of the image: 5629824
+Segmentation end data/segmented/segmented_simple_900\temp_lfihziiaos/output_100.png
+Time elapsed: 0.77 seconds
+[segment_2.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_2.png, segmented file Jaccard Distance: 0.545509
+Average Jaccard Distance: 0.597590
+Segmenting segment_20.png...
+[segment_20.png][_vs][Progress][Starting segmentation]
+[segment_20.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_20.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_amidfgrlbb/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_amidfgrlbb\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_amidfgrlbb\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_amidfgrlbb/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_amidfgrlbb/output_100.png
+Time elapsed: 0.75 seconds
+[segment_20.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_20.png, segmented file Jaccard Distance: 0.621284
+Average Jaccard Distance: 0.597894
+Segmenting segment_21.png...
+[segment_21.png][_vs][Progress][Starting segmentation]
+[segment_21.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_21.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_wvptkfjrku/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_wvptkfjrku\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_wvptkfjrku\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_wvptkfjrku/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_wvptkfjrku/output_100.png
+Time elapsed: 1.74 seconds
+[segment_21.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_21.png, segmented file Jaccard Distance: 0.613947
+Average Jaccard Distance: 0.598097
+Segmenting segment_22.png...
+[segment_22.png][_vs][Progress][Starting segmentation]
+[segment_22.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_22.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_eqsnurtvsf/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_eqsnurtvsf\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_eqsnurtvsf\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_eqsnurtvsf/output_100.png
+Total area of the image: 5629824
+Segmentation end data/segmented/segmented_simple_900\temp_eqsnurtvsf/output_100.png
+Time elapsed: 0.77 seconds
+[segment_22.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_22.png, segmented file Jaccard Distance: 0.595400
+Average Jaccard Distance: 0.598064
+Segmenting segment_23.png...
+[segment_23.png][_vs][Progress][Starting segmentation]
+[segment_23.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_23.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_uibimhjspn/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_uibimhjspn\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_uibimhjspn\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_uibimhjspn/output_100.png
+Total area of the image: 5629824
+Segmentation end data/segmented/segmented_simple_900\temp_uibimhjspn/output_100.png
+Time elapsed: 0.82 seconds
+[segment_23.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_23.png, segmented file Jaccard Distance: 0.551598
+Average Jaccard Distance: 0.597490
+Segmenting segment_24.png...
+[segment_24.png][_vs][Progress][Starting segmentation]
+[segment_24.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_24.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_utdaqeycyt/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_utdaqeycyt\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_utdaqeycyt\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_utdaqeycyt/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_utdaqeycyt/output_100.png
+Time elapsed: 18.11 seconds
+[segment_24.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_24.png, segmented file Jaccard Distance: 0.356167
+Average Jaccard Distance: 0.594547
+Segmenting segment_25.png...
+[segment_25.png][_vs][Progress][Starting segmentation]
+[segment_25.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_25.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_fwaaywwcun/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_fwaaywwcun\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_fwaaywwcun\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_fwaaywwcun/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_fwaaywwcun/output_100.png
+Time elapsed: 17.70 seconds
+[segment_25.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_25.png, segmented file Jaccard Distance: 0.386818
+Average Jaccard Distance: 0.592044
+Segmenting segment_26.png...
+[segment_26.png][_vs][Progress][Starting segmentation]
+[segment_26.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_26.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_uxkuicpkhw/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_uxkuicpkhw\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_uxkuicpkhw\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_uxkuicpkhw/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_uxkuicpkhw/output_100.png
+Time elapsed: 17.84 seconds
+[segment_26.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_26.png, segmented file Jaccard Distance: 0.421413
+Average Jaccard Distance: 0.590013
+Segmenting segment_27.png...
+[segment_27.png][_vs][Progress][Starting segmentation]
+[segment_27.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_27.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_tnotogizkt/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_tnotogizkt\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_tnotogizkt\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_tnotogizkt/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_tnotogizkt/output_100.png
+Time elapsed: 18.01 seconds
+[segment_27.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_27.png, segmented file Jaccard Distance: 0.507721
+Average Jaccard Distance: 0.589045
+Segmenting segment_28.png...
+[segment_28.png][_vs][Progress][Starting segmentation]
+[segment_28.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_28.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_tinuaiwfec/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_tinuaiwfec\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_tinuaiwfec\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_tinuaiwfec/output_100.png
+Total area of the image: 5629824
+Segmentation end data/segmented/segmented_simple_900\temp_tinuaiwfec/output_100.png
+Time elapsed: 1.05 seconds
+[segment_28.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_28.png, segmented file Jaccard Distance: 0.415237
+Average Jaccard Distance: 0.587024
+Segmenting segment_29.png...
+[segment_29.png][_vs][Progress][Starting segmentation]
+[segment_29.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_29.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_qurmznewks/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_qurmznewks\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_qurmznewks\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_qurmznewks/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_qurmznewks/output_100.png
+Time elapsed: 18.41 seconds
+[segment_29.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_29.png, segmented file Jaccard Distance: 0.592762
+Average Jaccard Distance: 0.587090
+Segmenting segment_3.png...
+[segment_3.png][_vs][Progress][Starting segmentation]
+[segment_3.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_3.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_znhcgbbsjw/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_znhcgbbsjw\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_znhcgbbsjw\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_znhcgbbsjw/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_znhcgbbsjw/output_100.png
+Time elapsed: 1.05 seconds
+[segment_3.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_3.png, segmented file Jaccard Distance: 0.617217
+Average Jaccard Distance: 0.587432
+Segmenting segment_30.png...
+[segment_30.png][_vs][Progress][Starting segmentation]
+[segment_30.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_30.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_bttevmiugq/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_bttevmiugq\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_bttevmiugq\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_bttevmiugq/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_bttevmiugq/output_100.png
+Time elapsed: 0.90 seconds
+[segment_30.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_30.png, segmented file Jaccard Distance: 0.608741
+Average Jaccard Distance: 0.587672
+Segmenting segment_31.png...
+[segment_31.png][_vs][Progress][Starting segmentation]
+[segment_31.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_31.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_irclkmyvjw/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_irclkmyvjw\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_irclkmyvjw\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_irclkmyvjw/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_irclkmyvjw/output_100.png
+Time elapsed: 1.79 seconds
+[segment_31.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_31.png, segmented file Jaccard Distance: 0.646711
+Average Jaccard Distance: 0.588328
+Segmenting segment_32.png...
+[segment_32.png][_vs][Progress][Starting segmentation]
+[segment_32.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_32.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_wjkroxucwk/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_wjkroxucwk\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_wjkroxucwk\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_wjkroxucwk/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_wjkroxucwk/output_100.png
+Time elapsed: 17.72 seconds
+[segment_32.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_32.png, segmented file Jaccard Distance: 0.356167
+Average Jaccard Distance: 0.585776
+Segmenting segment_33.png...
+[segment_33.png][_vs][Progress][Starting segmentation]
+[segment_33.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_33.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_eopfmadruc/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_eopfmadruc\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_eopfmadruc\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_eopfmadruc/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_eopfmadruc/output_100.png
+Time elapsed: 18.55 seconds
+[segment_33.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_33.png, segmented file Jaccard Distance: 0.458161
+Average Jaccard Distance: 0.584389
+Segmenting segment_34.png...
+[segment_34.png][_vs][Progress][Starting segmentation]
+[segment_34.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_34.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_qgbrhgxnjw/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_qgbrhgxnjw\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_qgbrhgxnjw\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_qgbrhgxnjw/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_qgbrhgxnjw/output_100.png
+Time elapsed: 18.06 seconds
+[segment_34.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_34.png, segmented file Jaccard Distance: 0.527788
+Average Jaccard Distance: 0.583781
+Segmenting segment_35.png...
+[segment_35.png][_vs][Progress][Starting segmentation]
+[segment_35.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_35.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_cwkwlsxjwu/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_cwkwlsxjwu\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_cwkwlsxjwu\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_cwkwlsxjwu/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_cwkwlsxjwu/output_100.png
+Time elapsed: 17.60 seconds
+[segment_35.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_35.png, segmented file Jaccard Distance: 0.360538
+Average Jaccard Distance: 0.581406
+Segmenting segment_36.png...
+[segment_36.png][_vs][Progress][Starting segmentation]
+[segment_36.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_36.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_kwsmkuwago/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_kwsmkuwago\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_kwsmkuwago\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_kwsmkuwago/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_kwsmkuwago/output_100.png
+Time elapsed: 0.99 seconds
+[segment_36.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_36.png, segmented file Jaccard Distance: 0.607047
+Average Jaccard Distance: 0.581676
+Segmenting segment_37.png...
+[segment_37.png][_vs][Progress][Starting segmentation]
+[segment_37.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_37.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_vhmlualews/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_vhmlualews\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_vhmlualews\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_vhmlualews/output_100.png
+Total area of the image: 15054336
+Segmentation end data/segmented/segmented_simple_900\temp_vhmlualews/output_100.png
+Time elapsed: 17.74 seconds
+[segment_37.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_37.png, segmented file Jaccard Distance: 0.482365
+Average Jaccard Distance: 0.580641
+Segmenting segment_38.png...
+[segment_38.png][_vs][Progress][Starting segmentation]
+[segment_38.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_38.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_hdmjxowcdn/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_hdmjxowcdn\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_hdmjxowcdn\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_hdmjxowcdn/output_100.png
+Total area of the image: 5294080
+Segmentation end data/segmented/segmented_simple_900\temp_hdmjxowcdn/output_100.png
+Time elapsed: 1.04 seconds
+[segment_38.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_38.png, segmented file Jaccard Distance: 0.501861
+Average Jaccard Distance: 0.579829
+Segmenting segment_39.png...
+[segment_39.png][_vs][Progress][Starting segmentation]
+[segment_39.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_39.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_avzhelgfis/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_avzhelgfis\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_avzhelgfis\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_avzhelgfis/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_avzhelgfis/output_100.png
+Time elapsed: 1.82 seconds
+[segment_39.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_39.png, segmented file Jaccard Distance: 0.567245
+Average Jaccard Distance: 0.579701
+Segmenting segment_4.png...
+[segment_4.png][_vs][Progress][Starting segmentation]
+[segment_4.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_4.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_patzagbmmy/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_patzagbmmy\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_patzagbmmy\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_patzagbmmy/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_patzagbmmy/output_100.png
+Time elapsed: 1.82 seconds
+[segment_4.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_4.png, segmented file Jaccard Distance: 0.603550
+Average Jaccard Distance: 0.579941
+Segmenting segment_40.png...
+[segment_40.png][_vs][Progress][Starting segmentation]
+[segment_40.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_40.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_rxblhfddvq/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_rxblhfddvq\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_rxblhfddvq\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_rxblhfddvq/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_rxblhfddvq/output_100.png
+Time elapsed: 3.21 seconds
+[segment_40.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_40.png, segmented file Jaccard Distance: 0.588577
+Average Jaccard Distance: 0.580028
+Segmenting segment_5.png...
+[segment_5.png][_vs][Progress][Starting segmentation]
+[segment_5.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_5.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_przztqcwjq/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_przztqcwjq\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_przztqcwjq\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_przztqcwjq/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_przztqcwjq/output_100.png
+Time elapsed: 3.04 seconds
+[segment_5.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_5.png, segmented file Jaccard Distance: 0.533334
+Average Jaccard Distance: 0.579566
+Segmenting segment_6.png...
+[segment_6.png][_vs][Progress][Starting segmentation]
+[segment_6.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_6.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_wjyghbxpyd/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_wjyghbxpyd\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_wjyghbxpyd\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_wjyghbxpyd/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_wjyghbxpyd/output_100.png
+Time elapsed: 2.82 seconds
+[segment_6.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_6.png, segmented file Jaccard Distance: 0.392723
+Average Jaccard Distance: 0.577734
+Segmenting segment_7.png...
+[segment_7.png][_vs][Progress][Starting segmentation]
+[segment_7.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_7.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_tslkoquntn/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_tslkoquntn\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_tslkoquntn\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_tslkoquntn/output_100.png
+Total area of the image: 7962624
+Segmentation end data/segmented/segmented_simple_900\temp_tslkoquntn/output_100.png
+Time elapsed: 7.24 seconds
+[segment_7.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_7.png, segmented file Jaccard Distance: 0.582138
+Average Jaccard Distance: 0.577776
+Segmenting segment_8.png...
+[segment_8.png][_vs][Progress][Starting segmentation]
+[segment_8.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_8.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_hysnjiqvwh/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_hysnjiqvwh\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_hysnjiqvwh\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_hysnjiqvwh/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_hysnjiqvwh/output_100.png
+Time elapsed: 2.79 seconds
+[segment_8.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_8.png, segmented file Jaccard Distance: 0.530544
+Average Jaccard Distance: 0.577322
+Segmenting segment_9.png...
+[segment_9.png][_vs][Progress][Starting segmentation]
+[segment_9.png][_vs][Progress][Starting final segmentation]
+Scaling data/parsed_dataset_test/original\segment_9.png to 100 percent.
+Segmentation start data/segmented/segmented_simple_900\temp_otssslumtr/output_100.png
+input_file_name = output_100.png, output_grey_file_name = data/segmented/segmented_simple_900\temp_otssslumtr\output_100_segmented_grey_not_voting.png, output_binary_file_name = data/segmented/segmented_simple_900\temp_otssslumtr\output_100_segmented_binary_not_voting.png
+Segmented by voting windows the following image: data/segmented/segmented_simple_900\temp_otssslumtr/output_100.png
+Total area of the image: 6869376
+Segmentation end data/segmented/segmented_simple_900\temp_otssslumtr/output_100.png
+Time elapsed: 3.46 seconds
+[segment_9.png][_vs][Progress][Finished final segmentation]
+Ground image file: segment_9.png, segmented file Jaccard Distance: 0.612297
+Average Jaccard Distance: 0.577655

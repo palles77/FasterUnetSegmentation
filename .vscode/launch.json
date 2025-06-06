@@ -1,0 +1,170 @@
+{
+    "configurations": [
+        {
+            "name": "Step 1. Python: Clean up directories and files",
+            "program": "src/Main.py",
+            "request": "launch",
+            "type": "debugpy",
+            "args": [
+                "--cleanup",
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Step 2. Python: Generate tensor data for training step",
+            "program": "src/Main.py",
+            "request": "launch",
+            "type": "debugpy",
+            "args": [
+                "--generate",
+                "--maximum-generation-img-count=900"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {            
+            "name": "Step 3. Python: Train unet for vessels segmentation",
+            "program": "src/Main.py",
+            "request": "launch",
+            "type": "debugpy",
+            "args": [
+                "--train",
+                "--epochs=150"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Step 4. Python: cnn vessels segmentation assessment data preparation",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "program": "src/Main.py",
+            "request": "launch",
+            "type": "debugpy",
+            "args": [
+                "--segmentation-pretraining",
+                "--segmentation-input-original-dir=data/parsed_dataset/fives/cnn_train/original",
+                "--segmentation-input-ground-dir=data/parsed_dataset/fives/cnn_train/ground",
+                "--segment-min-percent-scale=40",
+                "--segment-max-percent-scale=100",
+                "--segment-rough-percent-step-1=15",
+                "--segmentation-training-dir=data/segmented/fives/training",
+                "--segmentation-output-dir=data/segmented/fives",
+                "--segmentation-dbl-file=data/parsed_dataset/fives/cnn_train/list_all.dbl",
+                "--unet-model-file=data/models/unet_model_20250807_233356/unet_model_weights_vs.pt",
+            ]
+        },
+        {
+            "name": "Step 5. Python: cnn vessels segmentation training",
+            "program": "src/Main.py",
+            "request": "launch",
+            "type": "debugpy",
+            "args": [
+                "--segmentation-training",
+                "--segmentation-training-dir=data/segmented/fives/training",
+                "--cnn-min-window-count=30",
+                "--epochs=150",
+                "--batch-size=64",
+                "--learning-rate=0.00025"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Step 6. Python: Segment vessels with trained UNET and trained CNN",
+            "program": "src/Main.py",
+            "request": "launch",
+            "type": "debugpy",
+            "args": [
+                "--segment",
+                "--segmentation-input-original-dir=data/parsed_dataset_test/original",
+                "--segmentation-input-ground-dir=data/parsed_dataset_test/ground",
+                "--segmentation-dbl-file=data/parsed_dataset_test/list_short.dbl",
+                "--segmentation-output-dir=data/segmented/test_all",
+                "--segmentation-summary-file=data/segmented/test_all/summary.txt",
+                "--unet-model-file=data/models/unet_model_20250727_233733/unet_model_weights_vs.pt",
+                "--cnn-model-file=data/models/cnn_model_20250731_114602/cnn_model_weights_vs.pt",
+                "--segment-voting-percentage=80",
+                "--segment-voting-percentage-mult=0",
+                "--segment-jaccard-windows-percentage=100",
+                "--segment-voting-overlap-percentage=15",
+                "--batch-size=1024",
+                "--cnn-inference-batch-size=128",
+                "--segment-rough-percent-step-1=20",
+                "--segment-rough-percent-step-2=10",
+                "--segment-rough-interval=10",
+                "--segment-min-percent-scale=40",
+                "--segment-max-percent-scale=100",
+
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Step 7. Python: Segment complex vessels with trained UNET and trained CNN in batches of parameters",
+            "program": "src/Main.py",
+            "request": "launch",
+            "type": "debugpy",
+            "args": [
+                "--segment-multiple",
+                "--segmentation-input-original-dir=data/parsed_dataset_test/original",
+                "--segmentation-input-ground-dir=data/parsed_dataset_test/ground",
+                "--segmentation-dbl-file=data/parsed_dataset_test/list.dbl",                
+                "--segmentation-output-dir=data/segmented",
+                "--unet-model-file=data/models/300_unet_model_20250727_233733/unet_model_weights_vs.pt",
+                "--cnn-model-file=data/models/300_cnn_model_20250731_114602/cnn_model_weights_vs.pt",
+                "--batch-size=1024",
+                "--cnn-inference-batch-size=128",
+                "--segment-multiple-params=300_40_100_20_10_10_15_80_4_100,300_40_100_30_15_15_0_50_0_25,300_40_100_30_15_15_0_100_0_25,300_40_100_20_10_10_15_80_2_25,300_40_100_20_10_10_15_80_4_25",
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Step 8. Python: Segment simple vessels with trained UNET",
+            "program": "src/Main.py",
+            "request": "launch",
+            "type": "debugpy",
+            "args": [
+                "--segment-multiple-simple",
+                "--segmentation-input-original-dir=data/parsed_dataset_test/original",
+                "--segmentation-input-ground-dir=data/parsed_dataset_test/ground",
+                "--segmentation-dbl-file=data/parsed_dataset_test/list.dbl",
+                "--segmentation-output-dir=data/segmented/segmented_simple_900",
+                "--unet-model-file=data/models/900_unet_model_20250819_003703/unet_model_weights_vs.pt",
+                "--batch-size=1024"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "name": "Python: Chart plotting",
+            "program": "data/segmented/plot_bars.py",
+            "request": "launch",
+            "type": "debugpy"
+        }
+    ],
+    "version": "0.2.0"
+}
